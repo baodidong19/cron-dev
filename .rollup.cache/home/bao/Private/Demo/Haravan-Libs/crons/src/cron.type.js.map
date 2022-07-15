@@ -1,0 +1,1 @@
+{"version":3,"file":"cron.type.js","sourceRoot":"","sources":["cron.type.ts"],"names":[],"mappings":"","sourcesContent":["export type CrontType = {\n\n}\n"]}
