@@ -1,6 +1,6 @@
 {
   "name": "cron-dev",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "cron npm lib",
   "author": "BaoHuynh",
   "license": "MIT",
@@ -18,7 +18,8 @@
   "scripts": {
     "rollup": "rm -rf dist && rollup -c",
     "test": "jest --coverage --passWithNoTests --detectOpenHandles",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "prepublish": "tsc"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
