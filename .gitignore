@@ -1,5 +1,0 @@
-dist
-node_modules
-.npmignore
-.npmrc
-.rollup.cache
